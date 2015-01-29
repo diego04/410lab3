@@ -17,8 +17,14 @@ birthday</textarea>
 my main hobbies
 </textarea>
 <br/>
+<textarea name="name" cols="40" rows="5">
+%s</textarea>
+<br/>
+<textarea name="family" cols="40" rows="5">
+%s</textarea>
+<br/>
 <input type="submit" value="Submit">
-</form>"""
+</form>"""% (val1, val2)
 
 print""" 
 Hello my name is %s %s

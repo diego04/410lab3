@@ -11,8 +11,8 @@ form = cgi.FieldStorage()
 
 val1 = form.getvalue('name')
 val2 = form.getvalue('family')
-val1 = form.getvalue('birthday')
-val2 = form.getvalue('mainhobby')
+val3 = form.getvalue('birthday')
+val4 = form.getvalue('mainhobby')
 
 print "Content-Type: text/html;charset=utf-8"
 
@@ -37,4 +37,4 @@ Hello my name is %s and my last name is %s
 print "<br/>"
 print""" 
 Hello my birthday is %s and my hobby is %s
-""" % (val1, val2)
+""" % (val3, val4)
